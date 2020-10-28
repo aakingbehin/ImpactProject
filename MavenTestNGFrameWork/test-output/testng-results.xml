@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="6" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-10-27T16:45:21 EDT" name="Suite" finished-at="2020-10-27T16:45:21 EDT" duration-ms="53">
+    <groups>
+    </groups>
+    <test started-at="2020-10-27T16:45:21 EDT" name="Test" finished-at="2020-10-27T16:45:21 EDT" duration-ms="53">
+      <class name="mavenTestNG.TestCaseOne">
+        <test-method signature="launchSite()[pri:0, instance:mavenTestNG.TestCaseOne@d21a74c]" started-at="2020-10-27T16:45:21 EDT" name="launchSite" description="Launches the WordPress site" finished-at="2020-10-27T16:45:21 EDT" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchSite -->
+      </class> <!-- mavenTestNG.TestCaseOne -->
+      <class name="mavenTestNG2.TestCaseThree">
+        <test-method signature="publishBlogPost()[pri:0, instance:mavenTestNG2.TestCaseThree@6e509ffa]" started-at="2020-10-27T16:45:21 EDT" name="publishBlogPost" description="Publishes the post" finished-at="2020-10-27T16:45:21 EDT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- publishBlogPost -->
+        <test-method signature="writeBlogPost()[pri:0, instance:mavenTestNG2.TestCaseThree@6e509ffa]" started-at="2020-10-27T16:45:21 EDT" name="writeBlogPost" description="Writes the new post" finished-at="2020-10-27T16:45:21 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- writeBlogPost -->
+      </class> <!-- mavenTestNG2.TestCaseThree -->
+      <class name="mavenTestNG.TestCaseTwo">
+        <test-method signature="loginAsAdmin()[pri:0, instance:mavenTestNG.TestCaseTwo@2898ac89]" started-at="2020-10-27T16:45:21 EDT" name="loginAsAdmin" description="Enters valid login data" finished-at="2020-10-27T16:45:21 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginAsAdmin -->
+        <test-method signature="navigateNewPost()[pri:0, instance:mavenTestNG.TestCaseTwo@2898ac89]" started-at="2020-10-27T16:45:21 EDT" name="navigateNewPost" description="Navigates to the New Post screen" finished-at="2020-10-27T16:45:21 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateNewPost -->
+      </class> <!-- mavenTestNG.TestCaseTwo -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
